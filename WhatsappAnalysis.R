@@ -42,7 +42,7 @@ head(data, 10)
 
 #generate the wordcloud
 set.seed(1056)
-wordcloud(words = d$word, freq = d$freq, min.freq = 1,
+wordcloud(words = d$word, freq = d$freeny, min.freq = 1,
 max.words=200, random.order=FALSE, rot.per=0.35,
 colors=brewer.pal(8, "Dark2"))
 
